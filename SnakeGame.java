@@ -46,14 +46,14 @@ public class SnakeGame {
           int x = 0;
           int y = 0;
           ArrayList<Point> snake = new ArrayList<>();
-          snake.add(new Point(x,y));
+          snake.add(new Point(x,y)); // add intition (0,0) point
           String moves = sc.next();
           boolean flag = false;
           String currDir = "Up";
 
           for (a=0; a<n; a++) {
             char currMove = moves.charAt(a);
-            
+            //Logic for grid traversal with direction
             if (currDir.equals("Up")) {
                 if (currMove == 'L') {
                     x--;
@@ -100,10 +100,10 @@ public class SnakeGame {
             Point newPoint = new Point(x, y);
             
             if ((currMove == 'L' || currMove == 'R' || currMove == 'F') && a != 0) {
-                snake.remove(0);
+                snake.remove(0); // remove the end point because snake is of fixed length
             }
             
-            flag = checker(newPoint, snake);
+            flag = checkPointEqual(newPoint, snake);
             if (flag) break;
             snake.add(newPoint);
             
@@ -112,25 +112,21 @@ public class SnakeGame {
             System.out.println(a+1); //Print number of steps before snake eats itself.
         }
         else {
-            System.out.println("YES");
+            System.out.println("YES"); // else print survived
         } 
       }
     } catch (Exception e) {}
   }
 
-    static boolean checker (Point newPoint, ArrayList<Point> snake) {
+    static boolean checkPointEqual (Point newPoint, ArrayList<Point> snake) {
         for (int b=0; b < snake.size(); b++) {
-            if (newPoint.compareWith(snake.get(b))) {
+            if (newPoint.equals(snake.get(b))) {
                 return true;
             }
         }
         return false;
     }
     
-    // static Point getNewPoint(String currDir, char currMove, int x, int y) {
-        
-    // }
-
 }
 
 class Point {
@@ -153,6 +149,19 @@ class Point {
 
     public boolean compareWith (Point p2) {
         return (this.x == p2.getx() && this.y == p2.gety()); 
+    }
+
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        Point p1 = (Point) o;
+        return this.x == p1.getx() && this.y == p1.gety(); 
     }
 
     @Override
