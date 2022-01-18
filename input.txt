@@ -1,0 +1,90 @@
+[["5","3",".",".","7",".",".",".","."]
+,["6",".",".","1","9","5",".",".","."]
+,[".","9","8",".",".",".",".","6","."]
+,["8",".",".",".","6",".",".",".","3"]
+,["4",".",".","8",".","3",".",".","1"]
+,["7",".",".",".","2",".",".",".","6"]
+,[".","6",".",".",".",".","2","8","."]
+,[".",".",".","4","1","9",".",".","5"]
+,[".",".",".",".","8",".",".","7","9"]]
+
+1:38:43	
+Lecture 1
+
+4 months ago
+17:49	
+Lecture 1 (Q&A)
+
+3 months ago
+1:39:07	
+Lecture 2
+
+3 months ago
+27:02	
+Lecture 2 (Q&A)
+
+3 months ago
+16:36	
+Lecture 2 (Q2 and 3 Explanation)
+
+3 months ago
+1:57:00	
+Lecture 3 (with Q&A)
+
+3 months ago
+23:03	
+Lecture 3 (Explanations of Exercises)
+
+3 months ago
+1:49:45	
+Lecture 4 (with Q&A)
+
+3 months ago
+1:51:35	
+Lecture 5
+
+3 months ago
+1:54:44	
+Lecture 6 (withQ&A)
+
+2 months ago
+8:54	
+Lecture 6 (Q3 Explanation)
+
+2 months ago
+1:51:21	
+Lecture 7 (with Q&A)
+
+2 months ago
+1:50:46	
+Lecture 8 (with Q&A)
+
+2 months ago
+14:27	
+Lecture 8 (Q3-4 Explanations)
+
+2 months ago
+35:00	
+LIS using Greedy (Optional Video)
+
+a month ago
+1:51:50	
+Lecture 9 (with Q&A)
+
+a month ago
+2:02:39	
+Lecture 10 (with Q&A)
+
+a month ago
+1:54:17	
+Lecture 11 (with Q&A)
+
+a month ago
+1:49:42	
+Lecture 12 (with Q&A)
+
+23 days ago
+1:36:50	
+Lecture 13 (with Q&A)
+
+16 days ago

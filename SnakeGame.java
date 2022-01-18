@@ -31,8 +31,6 @@ YES
 
 */
 
-
-
 import java.util.*;
 
 public class SnakeGame {
