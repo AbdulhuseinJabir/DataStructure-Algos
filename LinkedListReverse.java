@@ -1,4 +1,4 @@
-public class ReverseLinkedList {
+public class LinkedListReverse {
     public static void main(String[] args) {
 
         LinkedList mylist = new LinkedList(new Node(1));
@@ -44,7 +44,7 @@ class LinkedList {
             current = current.next;
         }
     }
-
+    
     void print() {
         Node current = head;
         while (current != null) {
@@ -67,7 +67,7 @@ class LinkedList {
         }
         head = previous; // This is to ensure our newHead is the last element.
     }
-
+    
     void reverseLinkedListRecursion() {
         head = mainRecursiveCode(head);
     }
