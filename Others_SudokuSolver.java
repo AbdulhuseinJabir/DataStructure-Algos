@@ -1,4 +1,4 @@
-public class SudokuSolver {
+public class Others_SudokuSolver {
     public static void main(String[] args) {
         int[][] board = {
             { 8, 0, 0, 0, 0, 0, 0, 0, 0 },

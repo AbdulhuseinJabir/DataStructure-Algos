@@ -1,7 +1,7 @@
 import java.util.stream.*;
 import java.util.Arrays;
 
-public class sortedSquaredArray {
+public class Array_sortedSquaredArray {
     public static void main(String[] args) {
         int[] array = {-6, -4, 1, 2, 3, 5}; 
         // int[] answer = sortingSolution(array);

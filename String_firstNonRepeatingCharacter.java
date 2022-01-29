@@ -5,7 +5,7 @@ import java.util.HashMap;
 */
 
 
-public class firstNonRepeatingCharacterInString {
+public class String_firstNonRepeatingCharacter {
     public static void main(String[] args) {
         System.out.println(On_Array("aaaadbbbccc"));
     }

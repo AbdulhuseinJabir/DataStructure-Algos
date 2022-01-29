@@ -30,7 +30,7 @@
 import java.util.Stack;
 import java.util.*;
  
-public class BinaryTreeInorderPostorder {
+public class BinaryTree_InorderPostorder {
  
     static int postIndex;
  

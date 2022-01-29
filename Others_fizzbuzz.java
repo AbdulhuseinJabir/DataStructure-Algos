@@ -7,7 +7,7 @@
  * If the number is divisible by 15 output fizzbuzz
  * else output the number
  */
-public class fizzbuzz {
+public class Others_fizzbuzz {
 
     public static void main(String[] args) {
         // mostSimpleCode();

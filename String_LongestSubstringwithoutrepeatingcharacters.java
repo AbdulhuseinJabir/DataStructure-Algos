@@ -5,7 +5,7 @@ Given a string s, find the length of the longest substring without repeating cha
 
 import java.util.*;
 
-public class LongestSubstringwithoutrepeatingcharacters {
+public class String_LongestSubstringwithoutrepeatingcharacters {
     public static void main(String[] args) {
         
         System.out.println(On("abcabcbb"));

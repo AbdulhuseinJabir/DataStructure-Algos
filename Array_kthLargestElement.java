@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.Collections; 
 
-public class kthLargestElementInArray {
+public class Array_kthLargestElement {
     public static void main(String[] args) {
         List<Integer> data = new ArrayList<>(Arrays.asList(12, 3, 5, 6, 3, 19)); 
         int k = 2;
