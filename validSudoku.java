@@ -99,5 +99,6 @@ class recursion {
         Node temp = new Node(data); 
         temp.next = head; 
         head = temp; 
-    } 
+    }
+} 
   

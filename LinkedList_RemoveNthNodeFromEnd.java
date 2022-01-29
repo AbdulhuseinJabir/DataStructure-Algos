@@ -1,7 +1,7 @@
 import java.util.*;
 
 
-public class LinkedListRemoveNthNodeFromEnd {
+public class LinkedList_RemoveNthNodeFromEnd {
     public static void main (String[] args) {
         LinkedList ll = new LinkedList(new Node(1));
         ll.add(new Node(2));

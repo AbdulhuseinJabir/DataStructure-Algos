@@ -1,4 +1,4 @@
-public class LinkedListReverse {
+public class LinkedList_Reverse {
     public static void main(String[] args) {
 
         LinkedList mylist = new LinkedList(new Node(1));

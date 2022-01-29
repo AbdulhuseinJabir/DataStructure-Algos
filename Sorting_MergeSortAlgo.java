@@ -8,7 +8,7 @@ import java.util.*;
  * 2,3,6,7,10
  */
 
-public class mergetwosortedarrays {
+public class Sorting_MergeSortAlgo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

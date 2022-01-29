@@ -4,7 +4,7 @@
 // the above way won't work if you have the last node and want to delete it, in that case just get the node before it and do that node->next=node->next->next.
 
 
-public class LinkedListDeleteNode {
+public class LinkedList_DeleteNode {
     static class Node {
         int value;
         Node next = null;
