@@ -28,10 +28,6 @@ public class Array_kthLargestElement {
         }
         return minHeap.peek();
     }
-
-    public static int maxHeapMethod(List<Integer> data, int k) {
-        
-    }
 }
 
 

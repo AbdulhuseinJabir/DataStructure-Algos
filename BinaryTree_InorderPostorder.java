@@ -88,7 +88,7 @@ public class BinaryTree_InorderPostorder {
     {
         int in[] = {4, 2, 5, 1, 3, 6};
         int post[] = {4, 5, 2, 6, 3, 1};
-        BinaryTreeInorderPostorder tree = new BinaryTreeInorderPostorder();
+        BinaryTree_InorderPostorder tree = new BinaryTree_InorderPostorder();
         tree.printPreMain(in, post);
     }
 }

@@ -31,7 +31,7 @@ public class basicJavaCoding {
 
         //Different ways to initialise a List in java
         List<String> data =  Stream.of("Abd", "Mus", "Jab").collect(Collectors.toList());
-        List<String> list = new ArrayList<>(Arrays.asList("Abdulhusein", "Alifiya", "Jabir"));
+        List<String> list1 = new ArrayList<>(Arrays.asList("Abdulhusein", "Alifiya", "Jabir"));
 
         //Shortcut to fix indentation in java on Visual Studio is Shift + Alt + F
     }
